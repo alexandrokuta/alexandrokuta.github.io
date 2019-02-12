@@ -1,3 +1,19 @@
 .works__wrapper {
   width: 92%;
 }
+
+.header {
+  max-height:50vh;
+}
+
+.about {
+  max-height:50vh;
+}
+
+.works {
+  max-height:50vh;
+}
+
+.contact {
+  max-height:50vh;
+}

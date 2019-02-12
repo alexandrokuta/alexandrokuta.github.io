@@ -27,16 +27,22 @@ li {
 .about {
   background-color: #FFF;
   height: 100vh;
+  min-height: 50vh;
+
 }
 
 .works {
   background: linear-gradient(90deg, rgba(22, 135, 237, 0.6), rgba(20, 55, 90, 0.9)),url("bg.jpg");
   height: 100vh;
+  min-height: 50vh;
+
 }
 
 .contact {
   height: 100vh;
   background-image: linear-gradient(-90deg, #5CFAFF, #639AEE);
+  min-height: 50vh;
+
 }
 
 .header__name__text {

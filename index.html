@@ -1,7 +1,134 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="UTF-8" />
+  <title></title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" media="(max-width: 1120px)" href="respon.css">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+  <header class="header">
+    <div class="header__name__text">
+      <div class="mayname">Tomohiro Tatetsuji's Portfolio</div>
+    </div>
+    <div class="subtitle">
+      <span>Web Engineer</span>
+    <div class="buttons">
+    </div>
+      <a class="button button-profile" href="#about">Profile</a>
+      <a class="button button-orange" href="#works">My Works</a>
+  </div>
+  </header>
+
+  <section class="about" id="about">
+    <div class="flexbox">
+      <div class="icon">
+        <img src="icon.jpg">
+      </div>
+      <div>
+
+      <div class="about__title">
+        <i class="fab fa-ello"></i>
+        <span>
+          Profile
+        </span>
+        <p>
+        大学卒業後、大手旅行会社に就職。<br>
+        そこで使用した旅行手配システムとの出会いをきっかけに、プログラミングに興味を持つ。<br>
+        働きながらプログラミングスクールに通う内にエンジニアになりたい願望が強くなり退職。<br>
+        その後、未経験からエンジニアになれるTech:Expert(株式会社div様)にてプログラミングを学ぶ。<br>
+        『常に新しい』そんなエンジニアになります。
+        </p>
+      </div>
+        <div class="skill__box">
+          <i class="fas fa-book"></i>
+          <span>Skill</span>
+          <p>
+            【TECH::EXPERTでの学習経験】<br>
+            Ruby on Rails、Javascriptを用いたフルスクラッチのアプリケーション開発及びAWSを用いたデプロイ<br>
+
+            【開発実績】<br>
+            Haml・SCSS・Ruby・Ruby on Rails・JavaScript・jQuery・<br>
+            GitHub・AWS等の技術を用いた複合的機能の企画・実装<br>
+            ①Chat-Space（チャットアプリケーション）<br>
+            ②既存サービスのクローンサイトを開発<br>
+            ③スクラムによるアジャイル開発
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="works" id="works">
+      <div class="myworks">Myworks</div>
+    <div class="works__wrapper">
+      <div class="work__content">
+        <h4>Pictweet</h4>
+        <img class= "app__img", src="pictweet.png", alt="pictweet">
+        <div>
+        <p class="discribe">
+          twitterとinstagramを掛け合わせたアプリ<br>
+        </p>
+        <p class="language">
+          ~使用言語~<br>
+          Ruby(Ruby on Rails)<br>
+          HTML/CSS
+        </p>
+        <a href="https://github.com/alexandrokuta/pictweet" "pictweet">
+        <i class="fab fa-github git-pictweet"></i>
+        </a>
+        </div>
+      </div>
+      <div class="work__content">
+        <h4>Chatspace</h4>
+        <img class= "app__img", src="chat.png", alt="chat">
+        <div>
+        <p class="discribe">
+          非同期通信、自動更新機能を実装した<br>チャットアプリ<br>
+        </p>
+        <p class="language">
+          ~使用言語~<br>
+          Ruby(Ruby on Rails)<br>
+          Haml/Scss<br>
+          Jquery
+        </p>
+        <a href="https://github.com/alexandrokuta/chat-space" "chatspace">
+        <i class="fab fa-github git-chatspace"></i>
+        </a>
+        </div>
+      </div>
+      <div class="work__content">
+        <h4>Realtube</h4>
+        <img class= "app__img", src="real.png", alt="real">
+        <div>
+        <p class="discribe">
+          Actioncable(Websocket通信)を用いた<br>リアルタイムチャットアプリ<br>youtubeを見ながらチャットができる。
+        </p>
+        <p class="language">
+          ~使用言語~<br>
+          Ruby(Ruby on Rails)<br>
+          Haml/Scss<br>
+          Jquery
+        </p>
+        <a href="https://github.com/alexandrokuta/realtube" "chatspace">
+        <i class="fab fa-github git-real"></i>
+        </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-title">Contact</div>
+    <div calss="twitter">
+      <a href="https://twitter.com/tomokuya" "twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </div>
+  </section>
 </body>
 </html>
